@@ -9,6 +9,8 @@ class RPS(Enum):
     PAPER = 2
     SCISSOR = 3
 
+played_game_count = 0
+
 def rps_game():
     
     print(" ")
@@ -48,6 +50,12 @@ def rps_game():
         print("🐍Won by Python🐍") 
     
     print("")
+    
+    global played_game_count
+    played_game_count += 1
+    print("Game Played Count : " + str(played_game_count))
+
+    print(" ")
     
     print("Play again ? \nEnter y for Play again \nEnter q for Quit ")
     
