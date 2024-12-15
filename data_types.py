@@ -69,6 +69,7 @@ print("Cheesecake".ljust(16, ".")+"$4".rjust(4))
 print("")
 
 
+# string Index Value
 first = "Subscribe"
 print(first[1])
 print(first[-1])
