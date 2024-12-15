@@ -107,7 +107,9 @@ def rps():
 
     return rps_game
 
-
 play = rps()
 
-play()
+if __name__ == "__main__" :
+    play()
+
+#print(__name__)
